@@ -1,0 +1,25 @@
+#vendorDetail, #vendorDetail, #vendorCPDetail, #newVendor{
+    padding: 10px;
+    margin: 10px;
+    background: rgb(248, 248, 248);
+}
+
+.title{
+    font-size: 1.4em;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+.title i{
+    font-size: 1.8em;
+}
+.title span{
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 6px;
+}
+
+.titleID{
+    right: 20px;
+}

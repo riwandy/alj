@@ -1,0 +1,49 @@
+.display{
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    width: 100%;
+}
+
+#employeeID{
+    color: red
+}
+
+#employeeDetail, #userDetail, #newUserDetail{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    background: rgb(243, 243, 243);
+}
+
+#title{
+    float: left;
+    font-size: 1.4em;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+#title i{
+    font-size: 1.8em;
+}
+#title span{
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 6px;
+}
+
+#controls{
+    position: sticky;
+    border-radius: 25px;
+    background: rgb(209, 209, 209);
+    bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    height: 50px;
+    padding: 0 6px 0 10px;
+}

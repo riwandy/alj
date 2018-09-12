@@ -1,0 +1,129 @@
+/* .display{
+    width: 100%;
+    height: calc(100vh - 50px);
+}
+
+.display #employeeID{
+    margin-top: 10px;
+    font-size: 2em;
+    display: grid;
+    width: 100%;
+    text-align: center;
+}
+
+.form-control-1{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    width: 100%;
+}
+.form-control-2{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 100%;
+}
+.form-control-3{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 100%;
+}
+
+.form-control-1 input, select{
+    height: 35px;
+}
+.form-control-2 input, select{
+    height: 35px;
+}
+.form-control-3 input, select{
+    height: 35px;
+    width: calc(100% - 100px);
+}
+
+.form-control-1 label,.form-control-2 label,.form-control-3 label{
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+#personal{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    background: rgb(243, 243, 243);
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: "title photo"
+                         "name photo"
+                         "idNumber photo"
+                         "address photo"
+}
+
+#personal span{
+    font-size: 1.5em;
+}
+
+#personal span i{
+    position: relative;
+    padding-right: 5px;
+    font-size: 1.5em;
+    top: 8px;
+}
+#title{grid-area: title; text-align: left; font-weight: bold;}
+#name{grid-area: name}
+#idNumber{grid-area: idNumber}
+#address{grid-area: address}
+#address textarea{resize: none; rows: 10;}
+#photo{grid-area: photo; background: white;}
+
+#personnel{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background: rgb(240, 240, 240);
+    display: grid;
+    grid-column-gap: 5px;
+    text-align: left;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#contact{
+    margin-top: 15px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background: rgb(240, 240, 240);
+    display: grid;
+    grid-row-gap: 10px;
+    text-align: left;
+    grid-template-areas: "whatsapp"
+}
+
+#whatsapp{grid-area: whatsapp}
+
+#emergency{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    background: rgb(240, 240, 240);
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    text-align: left;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "title photo"
+                         "name photo"
+                         "idNumber photo"
+                         "address photo"
+}
+
+#controls{
+    position: absolute;
+    background: greenyellow;
+    bottom: 0;
+}
+
+#controls button{
+    width: 150px;
+    display: inline;
+} */

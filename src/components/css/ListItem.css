@@ -1,0 +1,81 @@
+.list-item{
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid rgb(38, 38, 41);
+    display: grid;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.list-item.employee{
+    height: 100px;
+    grid-template-columns: 2fr 3.5fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.list-item.user{
+    height: 75px;
+    grid-template-columns: 2fr 3.5fr;
+    grid-template-rows: 1fr;
+}
+
+.list-item.project{
+    height: 100px;
+    grid-template-columns: 2fr 3.5fr;
+    grid-template-rows: 1fr;
+}
+
+.list-item.vendor{
+    height: 75px;
+    grid-template-columns: 2fr 3.5fr;
+    grid-template-rows: 1fr;
+}
+
+.list-item.client{
+    height: 100px;
+    grid-template-columns: 2fr 3.5fr;
+    grid-template-rows: 1fr;
+}
+
+.list-item.vehicle{
+    height: 75px;
+    grid-template-columns: 2fr 3.5fr;
+    grid-template-rows: 1fr;
+}
+
+.list-item .detail{
+    display: block;
+    margin: auto 0;
+    text-align: left;
+}
+
+.list-item:hover, .list-item.selected{
+    background: #ffd000;
+}
+
+.ID{
+    width: 100%;
+    height: 100%;
+    grid-row: 1/4;
+    display: grid;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.list-item .name, .idNumber, .address, .username{
+    display: grid;
+    align-items: center;
+    justify-items: start;
+    text-align: left;
+}
+
+.business-array{
+    display: inline-block;
+    background: #e2e2e2;
+    border-radius: 6px;
+    padding: 2px 8px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    font-size: 0.8em;
+}

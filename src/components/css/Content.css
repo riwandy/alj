@@ -1,0 +1,7 @@
+.content{
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: grid;
+    background: white;
+    grid-template-columns: 400px 1fr;
+}
