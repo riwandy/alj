@@ -304,7 +304,7 @@ class VehicleDisplay extends Component{
                                 <i className="material-icons">people</i>
                                 <span>Contact Person</span>
                             </div>
-                            {contact_person_render}
+                            {/* {contact_person_render} */}
                         </Segment>
                     </div>
                     <div id="controls">
